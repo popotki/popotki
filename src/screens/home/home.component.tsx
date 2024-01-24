@@ -1,5 +1,5 @@
 export default function Home(){
     return(
-        <>popotki.com</>
+        <div style={{textAlign: 'center', margin:'120px'}}>popotki.com</div>
     )
 }
