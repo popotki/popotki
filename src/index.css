@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+:root {
+  --unit: 4px;
+  --unit-md: calc(4*var(--unit));
+  --unit-lg: calc(8*var(--unit));
+  --first-color: #3C3C3C;
+  --second-color: #fff;
+}
+
+body{
+  font-family: 'Karla', sans-serif;
+  color: var(--first-color);
+  margin: var(--unit-lg);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 680px;
+}
+
+.avatar{
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  background-image: url("assets/popotki-avatar.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--second-color);
+  background-blend-mode: multiply;
+  margin:0 auto var(--unit-md) auto;
+}
+
+.username{
+  margin:0 auto var(--unit-lg) auto;
+}
+
+.link{
+  text-align: center;
+  background: var(--first-color);
+  border:4px solid var(--first-color);
+  padding: var(--unit-md) var(--unit-lg);
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+.link:hover{
+  background: transparent;
+  color: var(--first-color);
+}
+
+.link:not(:last-child){
+  margin-bottom: var(--unit-md);
+}
+
+.post{
+  text-align: center;
+}
+
+.post__title{
+  margin:var(--unit-md) 0 var(--unit-lg) 0;
+}
