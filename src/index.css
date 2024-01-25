@@ -8,6 +8,16 @@
   --second-color: #fff;
 }
 
+html[data-theme='light'] {
+  --first-color: #3C3C3C;
+  --second-color: #fff;
+}
+
+html[data-theme='dark'] {
+  --first-color: #fff;
+  --second-color: #3C3C3C;
+}
+
 body{
   font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased;
