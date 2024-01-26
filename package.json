@@ -1,0 +1,19 @@
+{
+  "name": "popotki.github.io",
+  "version": "1.0.0",
+  "description": "@popotki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popotki/popotki.github.io.git"
+  },
+  "author": "@popotki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popotki/popotki.github.io/issues"
+  },
+  "homepage": "https://github.com/popotki/popotki.github.io#readme"
+}
