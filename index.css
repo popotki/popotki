@@ -51,28 +51,16 @@ body{
   margin:0 auto var(--unit-lg) auto;
 }
 
-.link{
-  text-align: center;
-  background: transparent;
-  border:4px solid var(--first-color);
-  padding: var(--unit-md) var(--unit-lg);
-  color: var(--first-color);
-  text-decoration: none;
-}
-
-.link:hover{
-  background: var(--first-color);
-  color: var(--second-color);
-}
-
-.link:not(:last-child){
-  margin-bottom: var(--unit-md);
-}
-
 .post{
   text-align: center;
 }
 
 .post__title{
   margin:var(--unit-md) 0 var(--unit-lg) 0;
+}
+
+.link-container{
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit-md);
 }
